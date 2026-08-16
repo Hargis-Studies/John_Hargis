@@ -1,189 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>John Hargis | Physics Portfolio</title>
 
-<style>
-      .text-box {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    text: 30px;
-  }
-    body {
-        margin: 0;
-        background-image: url("Natureback.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-         font-family: Arial, sans-serif;
-        color: #242729;
-        
-         }
-    .tan-box {
-        background: linear-gradient( 170deg, #decd95, #ffffff);
-        padding: 20px;
-        margin: 20px;
-        font-size: 20px;
-    }
+    <style>
 
-    .top-box {
-    background-color: white;
-    padding: 30px;
-    margin: 0;
-    border-radius: 0px;
-    text-align: center;
-    font-size: 50px;
-}
-</style>
+        /* =========================
+           GENERAL PAGE
+           ========================= */
+
+        body {
+            margin: 0;
+            background-image: url("Natureback.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+            font-family: Arial, sans-serif;
+            color: #242729;
+        }
+
+
+        /* =========================
+           TOP HEADER
+           ========================= */
+
+        .top-box {
+            background-color: white;
+            padding: 30px;
+            margin: 0;
+            text-align: center;
+        }
+
+        .text-box {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            text-align: center;
+            font-size: 20px;
+        }
+
+
+        /* =========================
+           MAIN SECTION TABS
+           ========================= */
+
+        .section-tab {
+            margin: 20px;
+        }
+
+        .section-tab > summary {
+            background: linear-gradient(170deg, #decd95, #ffffff);
+
+            padding: 20px;
+            border-radius: 10px;
+
+            font-size: 25px;
+            font-weight: bold;
+
+            cursor: pointer;
+
+            list-style-position: inside;
+        }
+
+        .section-tab > summary:hover {
+            background: linear-gradient(170deg, #d8c47d, #ffffff);
+        }
+
+
+        /* =========================
+           SECTION CONTENT
+           ========================= */
+
+        .section-content {
+            background-color: rgba(255, 255, 255, 0.93);
+
+            padding: 20px;
+            margin-top: 5px;
+
+            border-radius: 0 0 10px 10px;
+        }
+
+        .section-content h3 {
+            margin-top: 25px;
+        }
+
+
+        /* =========================
+           PROJECT EXPANDABLE TABS
+           ========================= */
+
+        .project {
+            margin: 10px 0;
+        }
+
+        .project summary {
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 8px;
+        }
+
+        .project summary:hover {
+            color: #2a92e8;
+        }
+
+        .project p {
+            padding: 10px 20px;
+            line-height: 1.6;
+        }
+
+    </style>
 
 </head>
 
-<body>
-        <div class="top-box">
-    
-    </div>
-   
 
-   
+<body>
+
+
+    <!-- =========================
+         TOP OF PAGE
+         ========================= -->
+
+    <div class="top-box">
+    </div>
+
+
     <header>
+
         <div class="text-box">
-        <h1>John Hargis</h1>
-        <p>Physics | Experimental Optics | Computational Optics</p>
+
+            <h1>John Hargis</h1>
+
+            <p>
+                Physics | Experimental Optics | Computational Optics
+            </p>
+
         </div>
+
     </header>
 
+
+
     <main>
-    <div class="tan-box">
-        <section>
-            <h2>Work Experience</h2>
-            <h3> Applied Research Center (ARC)</h3>
-            <details>
-                <summary> Click for more information</summary>
-
-                <p>Test</p>
-            </details>
-        </section>
-        <section>
-            <h2>Research & Experimental Projects</h2>
-
-            <h3>UCNP Thermometry of a 976 nm Optical Trap</h3>
-              <details>
-                <summary>Click for more information</summary>
-                  <p>Test 1</p>
-
-                  
-              </details>
-    
-
-            <h3>Luminescence Project</h3>
-            <details>
-                <summary>Click for more information</summary>
-
-                <p> Test 2</p>
-            </details>
-
-            <h3>Eye Project</h3>
-            <details>
-                <summary>Click for more details</summary>
-
-                <p>test 3</p>
-            </details>
-            <h3>Milk Project</h3>
-            <details>
-
-                <summary>Click for more details</summary>
-                <p>Test 4</p>
-            </details>
-            <h3>2 μm Bead Calibration of an Optical Trap</h3>
-            <details>
-                <summary>
-                    Click for more details
-                </summary>
-
-                <p> Test 5</p>
-            </details>
-            <h3>Acoustic Trap Project</h3>
-            <details>
-                <summary>Click for more information</summary>
-
-                <p>test 5</p>
-            </details>
-            <h3>Applied Research Center Work</h3>
-            <details>
-                <summary>Test 6</summary>
-                <p>Run 4</p>
-            </details>
-        </section>
 
 
-        <section>
-            <h2>Computational & Engineering Projects</h2>
-            <details>
-                <summary> More infomration</summary>
-                <p> blaahhhh</p>
-            </details>
-            <h3>AI Building Project</h3>
-                <details>
-                    <summary> More infomration</summary>
-                    <p> blaahhhh</p>
+        <!-- =========================
+             WORK EXPERIENCE
+             ========================= -->
+
+        <details class="section-tab">
+
+            <summary>Work Experience</summary>
+
+            <div class="section-content">
+
+                <h3>Applied Research Center (ARC)</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        Test
+                    </p>
+
                 </details>
-            <h3>Intermediate Computational Physics Labs</h3>
-                <details>
-                    <summary> More infomration</summary>
-                    <p> blaahhhh</p>
-                </details>
-            <h3>Intro to Computational Physics Final Project</h3>
-                <details>
-                    <summary> More infomration</summary>
-                    <p> blaahhhh</p>
-                </details>
-            <h3>Python Class Final Project</h3>
-                <details>
-                    <summary> More infomration</summary>
-                    <p> blaahhhh</p>
-                </details>
-            <h3>Practicum Engineering Final Project</h3>
-                <details>
-                    <summary> More infomration</summary>
-                    <p> blaahhhh</p>
-                </details>
-        </section>
+
+            </div>
+
+        </details>
 
 
-        <section>
-            <h2>Laboratory & Instrumentation</h2>
-                <details>
-                    <summary> More infomration</summary>
-                    <p> blaahhhh</p>
+
+        <!-- =========================
+             RESEARCH PROJECTS
+             ========================= -->
+
+        <details class="section-tab">
+
+            <summary>Research & Experimental Projects</summary>
+
+            <div class="section-content">
+
+
+                <h3>UCNP Thermometry of a 976 nm Optical Trap</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        Test 1
+                    </p>
+
                 </details>
-            <h3>Waves & Optics Class Labs</h3>
-                <details>
-                    <summary> More infomration</summary>
-                    <p> blaahhhh</p>
+
+
+
+                <h3>Luminescence Project</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        Test 2
+                    </p>
+
                 </details>
-            <h3>Atomic Physics Class Labs</h3>
-                <details>
-                    <summary> More infomration</summary>
-                    <p> blaahhhh</p>
+
+
+
+                <h3>Eye Project</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        Test 3
+                    </p>
+
                 </details>
-            <h3>Scientific Instrumentation Class Labs</h3>
-                <details>
-                    <summary> More infomration</summary>
-                    <p> blaahhhh</p>
+
+
+
+                <h3>Milk Project</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        Test 4
+                    </p>
+
                 </details>
-            <h3>Electronics Class Labs</h3>
-        </section>
-                <details>
-                    <summary> More infomration</summary>
-                    <p> blaahhhh</p>
+
+
+
+                <h3>2 μm Bead Calibration of an Optical Trap</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        Test 5
+                    </p>
+
                 </details>
-    </div>
+
+
+
+                <h3>Acoustic Trap Project</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        Test 6
+                    </p>
+
+                </details>
+
+
+
+                <h3>Applied Research Center Work</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        Test 7
+                    </p>
+
+                </details>
+
+
+            </div>
+
+        </details>
+
+
+
+        <!-- =========================
+             COMPUTATIONAL PROJECTS
+             ========================= -->
+
+        <details class="section-tab">
+
+            <summary>Computational & Engineering Projects</summary>
+
+            <div class="section-content">
+
+
+                <h3>AI Building Project</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        blaahhhh
+                    </p>
+
+                </details>
+
+
+
+                <h3>Intermediate Computational Physics Labs</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        blaahhhh
+                    </p>
+
+                </details>
+
+
+
+                <h3>Intro to Computational Physics Final Project</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        blaahhhh
+                    </p>
+
+                </details>
+
+
+
+                <h3>Python Class Final Project</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        blaahhhh
+                    </p>
+
+                </details>
+
+
+
+                <h3>Practicum Engineering Final Project</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        blaahhhh
+                    </p>
+
+                </details>
+
+
+            </div>
+
+        </details>
+
+
+
+        <!-- =========================
+             LABORATORY
+             ========================= -->
+
+        <details class="section-tab">
+
+            <summary>Laboratory & Instrumentation</summary>
+
+            <div class="section-content">
+
+
+                <h3>Waves & Optics Class Labs</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        blaahhhh
+                    </p>
+
+                </details>
+
+
+
+                <h3>Atomic Physics Class Labs</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        blaahhhh
+                    </p>
+
+                </details>
+
+
+
+                <h3>Scientific Instrumentation Class Labs</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        blaahhhh
+                    </p>
+
+                </details>
+
+
+
+                <h3>Electronics Class Labs</h3>
+
+                <details class="project">
+
+                    <summary>Click for more information</summary>
+
+                    <p>
+                        blaahhhh
+                    </p>
+
+                </details>
+
+
+            </div>
+
+        </details>
+
+
     </main>
 
+
 </body>
+
 </html>
